@@ -1,11 +1,9 @@
-import './App.css';
-
+import ButtonGradient from './assets/svg/ButtonGradient';
 function App() {
   return (
     <>
-      <div>
-        <p className="text-5xl">test</p>
-      </div>
+      <h1 className="text-center">hello world</h1>
+      <ButtonGradient />
     </>
   );
 }
